@@ -8,10 +8,12 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 0;
     public TextMeshProUGUI countText;
+    public TextMeshProUGUI starText;
     public GameObject winTextObject;
 
     private Rigidbody rb;
     private int count;
+    private int bits;
     private float movementX;
     private float movementY;
 
@@ -20,6 +22,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         count = 0;
+        bits = 0;
 
         SetCountText();
         winTextObject.SetActive(false);
@@ -36,10 +39,15 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if(count >= 12)
+        if (count >= 12)
         {
             winTextObject.SetActive(true);
         }
+    }
+
+    void SetStarText()
+    {
+        starText.text = "Star Bits X " + bits.ToString();
     }
 
     void FixedUpdate()
@@ -57,6 +65,12 @@ public class PlayerController : MonoBehaviour
             count = count + 1;
 
             SetCountText();
+        } else if (other.gameObject.CompareTag("StarBit"))
+        {
+            other.gameObject.SetActive(false);
+            bits = bits + 1;
+
+            SetStarText();
         }
     }
 }
