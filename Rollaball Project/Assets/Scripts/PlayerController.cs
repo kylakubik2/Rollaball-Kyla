@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI countText;
     public TextMeshProUGUI starText;
     public GameObject winTextObject;
+    public GameObject star;
 
     private Rigidbody rb;
     private int count;
@@ -48,6 +49,10 @@ public class PlayerController : MonoBehaviour
     void SetStarText()
     {
         starText.text = "Star Bits X " + bits.ToString();
+        if (bits >= 12 && star != null)
+        {
+            star.SetActive(true);
+        }
     }
 
     void FixedUpdate()
@@ -71,6 +76,11 @@ public class PlayerController : MonoBehaviour
             bits = bits + 1;
 
             SetStarText();
+        } else if (other.gameObject.CompareTag("Star"))
+        {
+            gameObject.GetComponent<AudioSource>().clip = star.GetComponent<AudioSource>().clip;
+            gameObject.GetComponent<AudioSource>().Play();
+            star.SetActive(false);
         }
     }
-}
+}            

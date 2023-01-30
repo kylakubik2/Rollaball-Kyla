@@ -9,7 +9,7 @@ public class TargetingSystem : MonoBehaviour, IPointerEnterHandler
     private int initialized;
     private Vector3 p_position;
     private Vector3 bit_position;
-    public float speed = 0;
+    private float speed = (float) 0.1;
 
 
 
@@ -20,7 +20,7 @@ public class TargetingSystem : MonoBehaviour, IPointerEnterHandler
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (initialized == 1)
         {
