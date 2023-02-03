@@ -4,23 +4,26 @@ using UnityEngine;
 
 public class Pacer : MonoBehaviour
 {
-    public float speed = 5.0f;
-    private float zMax = 7.5f;
-    private float zMin = -7.5f;
+    public float speed;
+    public float xMax;
+    public float xMin;
     private int direction = 1;
+    private float zCurrent;
 
     void Update()
     {
-        float zNew = transform.position.z + direction * speed * Time.deltaTime;
+        float xNew = transform.position.x + direction * speed * Time.deltaTime;
 
-        if (zNew >= zMax) {
-            zNew = zMax;
+        if (xNew >= xMax) {
+            xNew = xMax;
             direction *= -1;
-        } else if (zNew <= zMin) {
-            zNew = zMin;
+        } else if (xNew <= xMin) {
+            xNew = xMin;
             direction *= -1;
         }
 
-        transform.position = new Vector3(7.5f, 0.75f, zNew);
+        zCurrent = transform.position.z;
+
+        transform.position = new Vector3(xNew, 0.75f, zCurrent);
     }
 }
