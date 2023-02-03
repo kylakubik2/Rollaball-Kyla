@@ -8,6 +8,7 @@ TagManager:
   - StarBit
   - Star
   - Wall
+  - Club
   layers:
   - Default
   - TransparentFX

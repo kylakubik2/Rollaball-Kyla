@@ -2183,7 +2183,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!135 &522703069
@@ -2311,6 +2311,7 @@ MonoBehaviour:
   starText: {fileID: 2104234710}
   winTextObject: {fileID: 359610423}
   star: {fileID: 1319362215}
+  clubForce: 100
 --- !u!82 &522703075
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3685,9 +3686,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Throwable Golf Club (advanced estimation)
       objectReference: {fileID: 0}
+    - target: {fileID: 2099048678303092635, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
+      propertyPath: m_TagString
+      value: Club
+      objectReference: {fileID: 0}
+    - target: {fileID: 2099048678303092706, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
+      propertyPath: m_Mass
+      value: 85.48
+      objectReference: {fileID: 0}
     - target: {fileID: 2099048678303092706, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
       propertyPath: m_Interpolate
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2099048678303092706, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2099048678303092707, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
       propertyPath: m_RootOrder
@@ -3779,6 +3792,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2346210464975213833, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3153849393113108403, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
+      propertyPath: m_TagString
+      value: Club
+      objectReference: {fileID: 0}
+    - target: {fileID: 6850619274182158003, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542388695164566340, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5598,6 +5623,38 @@ MonoBehaviour:
   speed: 1
   xMax: 6.5
   xMin: 4.25
+--- !u!1 &1889516924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2099048678303092635, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
+  m_PrefabInstance: {fileID: 1054605627}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1889516932
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889516924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4956899, y: 1.4236293, z: 2.34}
+  m_Center: {x: -0.15, y: -0.03, z: -10.09}
+--- !u!136 &1889516933
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889516924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.4
+  m_Height: 20.83
+  m_Direction: 2
+  m_Center: {x: 0.95, y: 0.2, z: 0.85}
 --- !u!1001 &1944521733
 PrefabInstance:
   m_ObjectHideFlags: 0

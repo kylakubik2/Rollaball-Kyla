@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI starText;
     public GameObject winTextObject;
     public GameObject star;
+    public float clubForce = 5000.0f;
 
     private Rigidbody rb;
     private int count;
@@ -64,7 +65,8 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("PickUp"))
+        
+        if (other.gameObject.CompareTag("PickUp"))
         {
             other.gameObject.SetActive(false);
             count = count + 1;
@@ -81,6 +83,10 @@ public class PlayerController : MonoBehaviour
             gameObject.GetComponent<AudioSource>().clip = star.GetComponent<AudioSource>().clip;
             gameObject.GetComponent<AudioSource>().Play();
             star.SetActive(false);
+        } else if (other.gameObject.CompareTag("Club"))
+        {
+            // By subtracting the transform of the club off of the transform of the ball we find the vector from the club to the ball. Then apply a force in that direction to push the ball that way!
+            rb.AddForce((transform.position - other.gameObject.transform.position) * clubForce);
         }
     }
 }            
