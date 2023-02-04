@@ -7,8 +7,8 @@ MonoImporter:
   - overridePreviewLeftHandPrefab: {fileID: 1000013597184258, guid: 057574477c20401448aba7c848873712, type: 3}
   - overridePreviewRightHandPrefab: {fileID: 1000010184414672, guid: 5dc81ef5cae96304586abbc6e4b5beb8, type: 3}
   - skeletonMainPose: {fileID: 11400000, guid: d93b955753287b048b63d232fa679470, type: 2}
-  - previewLeftInstance: {fileID: 1000013597184258, guid: 057574477c20401448aba7c848873712, type: 3}
-  - previewRightInstance: {fileID: 1000010184414672, guid: 5dc81ef5cae96304586abbc6e4b5beb8, type: 3}
+  - previewLeftInstance: {fileID: 1000013348574242, guid: 638779290bce1af49b356f33dcc6fccf, type: 3}
+  - previewRightInstance: {fileID: 1000010304998954, guid: 6def53d002137b747aec0b29551e0e25, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
