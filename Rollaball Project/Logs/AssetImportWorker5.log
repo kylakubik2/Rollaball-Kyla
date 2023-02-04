@@ -1,0 +1,447 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16086 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/kylak/OneDrive/Desktop/VR/Rollaball-Kyla/Rollaball Project
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+57048
+Successfully changed project path to: C:/Users/kylak/OneDrive/Desktop/VR/Rollaball-Kyla/Rollaball Project
+C:/Users/kylak/OneDrive/Desktop/VR/Rollaball-Kyla/Rollaball Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 330.88 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kylak/OneDrive/Desktop/VR/Rollaball-Kyla/Rollaball Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti with Max-Q Design (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009187 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 252.12 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.532 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1533ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1124ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (706ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (252ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015196 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 284.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  2.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2987ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (2509ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (557ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (144ms)
+			SetupLoadedEditorAssemblies (1506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (285ms)
+				BeforeProcessingInitializeOnLoad (280ms)
+				ProcessInitializeOnLoadAttributes (840ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.3 MB). Loaded Objects now: 4650.
+Memory consumption went from 157.1 MB to 155.7 MB.
+Total: 9.192700 ms (FindLiveObjects: 0.663700 ms CreateObjectMapping: 0.753500 ms MarkObjects: 7.148200 ms  DeleteObjects: 0.625300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81834.752301 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right.prefab
+  artifactKey: Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right.prefab using Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcf05a4a1c2c5c7eb53a777771c0345') in 0.431640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab
+  artifactKey: Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab using Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b93ff9a6e69d2699de630c75fbb4bd') in 0.103206 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017500 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2990ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (2351ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (873ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (1033ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (711ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.37 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 4661.
+Memory consumption went from 168.6 MB to 167.3 MB.
+Total: 9.519200 ms (FindLiveObjects: 0.620300 ms CreateObjectMapping: 0.638100 ms MarkObjects: 7.658900 ms  DeleteObjects: 0.600100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11.875156 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab
+  artifactKey: Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_alien_right.prefab using Guid(a2330dd3e2bcb44428f727270af1d625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca83c175886161bc97925f1fcc721dd') in 0.291977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab
+  artifactKey: Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab using Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bcda4763bf34715bf5f29076e02f7b') in 0.074972 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020852 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.96 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2823ms)
+		BeginReloadAssembly (334ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (2202ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (815ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (960ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (659ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.41 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 4665.
+Memory consumption went from 168.6 MB to 167.3 MB.
+Total: 9.073900 ms (FindLiveObjects: 0.594600 ms CreateObjectMapping: 0.568000 ms MarkObjects: 7.323900 ms  DeleteObjects: 0.585300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.236014 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right.prefab
+  artifactKey: Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right.prefab using Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898730fa07a90514e528875893e0ee53') in 0.263648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SteamVR/Input/SteamVR_Skeleton_Poser.cs
+  artifactKey: Guid(e7418c7dd8f977d4e969202d3fa7e926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Input/SteamVR_Skeleton_Poser.cs using Guid(e7418c7dd8f977d4e969202d3fa7e926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb65aa44f3f4cd31633c4eed0a679a21') in 0.024639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab
+  artifactKey: Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_hand_floppy_right.prefab using Guid(48a64ca49a112494fa864087de12b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5a09bc97f78af091eac35ea7c8bb47') in 0.076926 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017627 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3125ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (95ms)
+		EndReloadAssembly (2528ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (909ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (1094ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (202ms)
+				ProcessInitializeOnLoadAttributes (750ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 23.16 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 4669.
+Memory consumption went from 168.6 MB to 167.3 MB.
+Total: 10.480500 ms (FindLiveObjects: 0.649200 ms CreateObjectMapping: 0.771600 ms MarkObjects: 8.456100 ms  DeleteObjects: 0.601300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.872419 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right.prefab
+  artifactKey: Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right.prefab using Guid(5dc81ef5cae96304586abbc6e4b5beb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfe81115889ec61a2bb07cc161a491e') in 0.243434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab
+  artifactKey: Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SteamVR/Prefabs/vr_glove_right_model_slim.prefab using Guid(6def53d002137b747aec0b29551e0e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c156264c6b4fad5cfb62ed765da70b81') in 0.049551 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018668 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kylak\OneDrive\Desktop\VR\Rollaball-Kyla\Rollaball Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2871ms)
+		BeginReloadAssembly (315ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2297ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (827ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (1007ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (699ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 16.02 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 4673.
+Memory consumption went from 168.7 MB to 167.4 MB.
+Total: 9.227700 ms (FindLiveObjects: 0.638600 ms CreateObjectMapping: 0.617500 ms MarkObjects: 7.395100 ms  DeleteObjects: 0.574500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
