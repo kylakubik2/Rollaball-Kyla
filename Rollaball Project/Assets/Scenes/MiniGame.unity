@@ -4801,6 +4801,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Club
       objectReference: {fileID: 0}
+    - target: {fileID: 2099048678303092704, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
+      propertyPath: hideControllerOnAttach
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2099048678303092706, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
       propertyPath: m_Mass
       value: 85.48
@@ -4983,7 +4987,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2099048678303092711, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
       propertyPath: attachmentFlags
-      value: 45
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 2346210464975213833, guid: 0940846aa25f3824db6ddd7b296d687b, type: 3}
       propertyPath: m_LocalScale.x
