@@ -87,6 +87,7 @@ public class PlayerController : MonoBehaviour
         {
             // By subtracting the transform of the club off of the transform of the ball we find the vector from the club to the ball. Then apply a force in that direction to push the ball that way!
             rb.AddForce((transform.position - other.gameObject.transform.position) * clubForce);
+            Debug.Log("Hit Ball");
         }
     }
 }            
